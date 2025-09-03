@@ -5,11 +5,11 @@ import MandiSvg from "../public/mandivendorline.svg";
 export default function PhaseTwo() {
   return (
     <>
-      <div className="flex flex-row items-center justify-center  w-full max-w-[850px] relative ">
+      <div className="relative flex w-full max-w-[850px] flex-row items-center justify-center">
         {/* MANDI HEXAGON */}
-        <div className="relative flex flex-col items-center mr-[-20px]">
+        <div className="relative mr-[-20px] flex flex-col items-center">
           <Shape image="/mandi.jpg" size={300} />
-          <span className="absolute bottom-2  px-6 py-2 text-white text-3xl font-bold rounded-md ">
+          <span className="absolute bottom-2 rounded-md px-6 py-2 text-3xl font-bold text-white">
             MANDI
           </span>
         </div>
@@ -24,20 +24,20 @@ export default function PhaseTwo() {
         />
 
         {/* VENDOR HEXAGON */}
-        <div className="relative flex flex-col items-center ml-[-27px]">
+        <div className="relative ml-[-27px] flex flex-col items-center">
           <Shape image="/vendor.jpg" size={300} />
-          <span className="absolute bottom-2 px-6 py-2  text-white text-3xl font-bold rounded-md tracking-wide">
+          <span className="absolute bottom-2 rounded-md px-6 py-2 text-3xl font-bold tracking-wide text-white">
             VENDOR
           </span>
         </div>
       </div>
 
       {/* Subtitle */}
-      <div className="mt-20 text-white text-4xl  font-medium text-center max-w-2xl">
+      <div className="mt-20 max-w-2xl text-center text-4xl font-medium text-white">
         Establishing R.O.S. as the biggest buyer <br /> in central Mandis
       </div>
 
-      <div className="max-w-6xl mt-20 mx-auto grid  md:grid-cols-3 gap-12 px-6 text-white">
+      <div className="mx-auto mt-20 grid max-w-6xl gap-12 px-6 text-white md:grid-cols-3">
         <div className="text-left text-xl leading-relaxed">
           Organizing the Mandi-
           <br />
@@ -62,7 +62,7 @@ export default function PhaseTwo() {
           drastically cuts the amount of wastage and uneven <br /> prices.
         </div>
       </div>
-      <div className="text-white text-3xl mt-20 font-medium whitespace-nowrap  ">
+      <div className="mt-20 text-3xl font-medium whitespace-nowrap text-white">
         Revealing Soon...
       </div>
     </>

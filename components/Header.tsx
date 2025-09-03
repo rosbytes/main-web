@@ -24,19 +24,19 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="w-full border-b bg-white  ">
-      <nav className="flex justify-center items-center py-4">
+    <header className="w-full border-b bg-white">
+      <nav className="flex items-center justify-center py-4">
         <div className="flex items-center gap-10">
           {navLinks.slice(0, 2).map((nav) => (
             <Link
               key={nav.path}
               href={nav.path}
-              className={`font-medium pb-1 border-b-2 transition-colors duration-200 ${
+              className={`border-b-2 pb-1 font-medium transition-colors duration-200 ${
                 pathname === nav.path
                   ? ""
                   : "border-transparent text-gray-900 hover:text-purple-700"
               }${
-                pathname === nav.path ? " text-[#993487] border-[#993487]" : ""
+                pathname === nav.path ? "border-[#993487] text-[#993487]" : ""
               }`}
             >
               {nav.name}
@@ -55,7 +55,7 @@ const Header = () => {
             <Link
               key={nav.path}
               href={nav.path}
-              className={`font-medium pb-1 transition-colors duration-200 ${
+              className={`pb-1 font-medium transition-colors duration-200 ${
                 pathname === nav.path
                   ? "border-b-2"
                   : "text-gray-900 hover:text-purple-700"

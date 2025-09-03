@@ -3,16 +3,15 @@ import vectorleft from "../public/vectorleft.svg";
 import vectorright from "../public/vectorright.svg";
 const PhaseThree = () => {
   return (
-    <div className=" w-full min-h-screen flex items-center justify-center relative font-sans px-4">
+    <div className="relative flex min-h-screen w-full items-center justify-center px-4 font-sans">
       {/* left vector */}
 
-     
-      <div className="absolute left-0 top-0 h-full flex items-center z-10">
+      <div className="absolute top-0 left-0 z-10 flex h-full items-center">
         <Image src={vectorleft} alt="vector-left" className="h-[70%] w-auto" />
       </div>
 
       {/* right vector */}
-      <div className="absolute right-0 top-0 h-full flex items-center z-10">
+      <div className="absolute top-0 right-0 z-10 flex h-full items-center">
         <Image
           src={vectorright}
           alt="vector-right"
@@ -21,79 +20,79 @@ const PhaseThree = () => {
       </div>
 
       {/* Main Content */}
-      <div className="w-full max-w-7xl mx-auto flex flex-row items-center justify-center relative z-10">
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-row items-center justify-center">
         {/* Center - Phase Grid */}
-        <div className="flex flex-col items-center w-full">
-          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-10">
+        <div className="flex w-full flex-col items-center">
+          <div className="grid w-full grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-3">
             {/* PHASE 2 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold opacity-20 tracking-wide uppercase">
+              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[38px] mb-1">
+              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 TWO
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 Digitalization of the Indian Vegetable Vendor
               </span>
             </div>
             {/* PHASE 3 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold opacity-20 tracking-wide uppercase">
+              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[38px] mb-1">
+              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 THREE
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 Crop Care Mission
               </span>
             </div>
             {/* PHASE 4 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold opacity-20 tracking-wide uppercase">
+              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[38px] mb-1">
+              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 FOUR
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 Healthy India Mission
               </span>
             </div>
             {/* PHASE 5 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold opacity-20 tracking-wide uppercase">
+              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[38px] mb-1">
+              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 FIVE
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 Highest ROI Business
               </span>
             </div>
             {/* PHASE 6 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold opacity-20 tracking-wide uppercase">
+              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[38px] mb-1">
+              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 SIX
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 World’s Biggest Distribution system
               </span>
             </div>
             {/* PHASE 7 - Highlighted */}
-            <div className="flex flex-col items-center  rounded-lg p-2 relative">
-              <span className="text-7xl tex-whi font-extrabold opacity-12 tracking-wide uppercase">
+            <div className="relative flex flex-col items-center rounded-lg p-2">
+              <span className="tex-whi text-7xl font-extrabold tracking-wide uppercase opacity-12">
                 PHASE
               </span>
-              <span className="text-white text-[36px] font-[Pacifico,cursive] font-bold -mt-[40px] mb-1">
+              <span className="-mt-[40px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
                 SEVEN
               </span>
-              <span className="text-white text-center text-lg">
+              <span className="text-center text-lg text-white">
                 The Farmverse
               </span>
             </div>
