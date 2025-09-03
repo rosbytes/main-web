@@ -1,3 +1,3 @@
 export default function page() {
-  return <div>Contact page</div>;
+  return <div>Join US page</div>;
 }

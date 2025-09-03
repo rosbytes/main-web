@@ -1,8 +1,9 @@
+// use only next/link and next/router in next revision, in short keep is server side component
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import headerRos from "../public/headerRos.svg";
+import headerRos from "@public/headerRos.svg";
 const navLinks = [
   {
     name: "Home",
@@ -23,7 +24,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <div className="w-full border-b bg-white  ">
+    <header className="w-full border-b bg-white  ">
       <nav className="flex justify-center items-center py-4">
         <div className="flex items-center gap-10">
           {navLinks.slice(0, 2).map((nav) => (
@@ -70,7 +71,7 @@ const Header = () => {
           ))}
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 
