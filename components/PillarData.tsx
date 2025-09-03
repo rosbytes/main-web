@@ -3,13 +3,13 @@ import Tractor from "../public/tractorsvg.svg";
 import Fruit from "../public/fruitsvg.svg";
 import Consumer from "../public/consumersvg.svg";
 import Store from "../public/storesvg.svg";
-import Image from "next/image"
+import Image from "next/image";
 
 export const Pillars = [
   {
     label: "Farmers",
     color: "#27ae60",
-    image:<Image src={Tractor} alt="Tractor" width={50} height={50} />,
+    image: <Image src={Tractor} alt="Tractor" width={50} height={50} />,
     lines: [
       <CenterLine key="center" color="#27ae60" />,
       <RightLine key="right" color="#27ae60" />,
