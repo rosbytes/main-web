@@ -12,8 +12,8 @@ export default function Home() {
        <VisionCard />
        <QuoteCard />
 
-      <PillarCard />
-      {/* <PhaseCard />   */}
+      {/* <PillarCard /> */}
+      <PhaseCard />  
     </>
   );
 }

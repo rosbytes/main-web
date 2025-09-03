@@ -16,13 +16,11 @@ const PillarComp = ({
 }: PillarCompProps) => {
   return (
     <div className="flex flex-col items-center relative">
-      
-      <Shape color={color} size={120} />
-
-    
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none flex items-center justify-center h-[80px] w-[80px]">
-        {image}
-      </div>
+      <Shape color={color} size={120}>
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none flex items-center justify-center h-[80px] w-[80px]">
+          {image}
+        </div>
+      </Shape>
 
       {/* Lines render */}
       <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-3 flex space-x-2">
