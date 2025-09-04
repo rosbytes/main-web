@@ -1,7 +1,9 @@
+import { ContactOne } from "@components/ContactOne";
+
 export default function Contact() {
   return (
     <>
-      <div>Contact page</div>
+      <ContactOne/>
     </>
   );
 }
