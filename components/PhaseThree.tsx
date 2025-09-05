@@ -26,7 +26,7 @@ const PhaseThree = () => {
           <div className="grid w-full grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-3">
             {/* PHASE 2 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
@@ -38,7 +38,7 @@ const PhaseThree = () => {
             </div>
             {/* PHASE 3 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
@@ -50,7 +50,7 @@ const PhaseThree = () => {
             </div>
             {/* PHASE 4 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
@@ -62,7 +62,7 @@ const PhaseThree = () => {
             </div>
             {/* PHASE 5 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
@@ -74,7 +74,7 @@ const PhaseThree = () => {
             </div>
             {/* PHASE 6 */}
             <div className="flex flex-col items-center">
-              <span className="text-7xl font-extrabold tracking-wide uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
@@ -86,7 +86,7 @@ const PhaseThree = () => {
             </div>
             {/* PHASE 7 - Highlighted */}
             <div className="relative flex flex-col items-center rounded-lg p-2">
-              <span className="tex-whi text-7xl font-extrabold tracking-wide uppercase opacity-12">
+              <span className=" text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
               <span className="-mt-[40px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
