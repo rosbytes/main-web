@@ -1,3 +1,14 @@
-export default function page() {
-  return <div>Contact page</div>;
+"use client";
+
+import { ContactOne } from "@components/ContactOne";
+import { ContactTwo } from "@components/ContactTwo";
+
+export default function Contact() {
+  return (
+    <>
+      <ContactOne />
+      
+      <ContactTwo />
+    </>
+  );
 }

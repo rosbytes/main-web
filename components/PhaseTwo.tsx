@@ -8,8 +8,13 @@ export default function PhaseTwo() {
       <div className="relative flex w-full max-w-[850px] flex-row items-center justify-center">
         {/* MANDI HEXAGON */}
         <div className="relative mr-[-20px] flex flex-col items-center">
-          <Shape image="/mandi.jpg" size={300} />
-          <span className="absolute bottom-2 rounded-md px-6 py-2 text-3xl font-bold text-white">
+          <Shape
+            image="/mandi.jpg"
+            size={300}
+            gradient={{ from: "rgba(10, 84, 69, 0)", to: "#0A5445" }}
+          />
+
+          <span className="absolute bottom-5 rounded-md px-6 py-2 text-4xl font-extrabold text-white">
             MANDI
           </span>
         </div>
@@ -25,8 +30,12 @@ export default function PhaseTwo() {
 
         {/* VENDOR HEXAGON */}
         <div className="relative ml-[-27px] flex flex-col items-center">
-          <Shape image="/vendor.jpg" size={300} />
-          <span className="absolute bottom-2 rounded-md px-6 py-2 text-3xl font-bold tracking-wide text-white">
+          <Shape
+            image="/vendor.jpg"
+            size={300}
+            gradient={{ from: "rgba(214, 126, 58, 0)", to: "#D67E3A" }}
+          />
+          <span className="absolute bottom-5 rounded-md px-6 py-2 text-4xl font-extrabold tracking-wide text-white">
             VENDOR
           </span>
         </div>
@@ -47,7 +56,7 @@ export default function PhaseTwo() {
           the cost of <br />
           groceries.
         </div>
-        <div className="text-left text-[18px] leading-relaxed">
+        <div className="text-left text-xl leading-relaxed">
           The involvement of ROS into <br />
           the system delivers <br />
           adequate monitoring of <br />
@@ -55,7 +64,7 @@ export default function PhaseTwo() {
           growth to each <br />
           associated vendor.
         </div>
-        <div className="text-left text-[18px] leading-relaxed">
+        <div className="text-left text-xl leading-relaxed">
           The network further <br />
           establishes stability in the <br />
           rather unstable market and <br />

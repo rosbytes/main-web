@@ -12,7 +12,7 @@ export default function Home() {
       <VisionCard />
       <QuoteCard />
 
-      {/* <PillarCard /> */}
+      {/* <PillarCard />  */}
       <PhaseCard />
     </>
   );
