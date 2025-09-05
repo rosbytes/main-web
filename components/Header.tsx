@@ -13,7 +13,7 @@ const navLinks = [
     name: "About R.O.S",
     path: "/about",
   },
-  { name: "Join Us", path: "/join" },
+  { name: "Join Us", path: "/join-us" },
   {
     name: "Contact Us",
     path: "/contact",
