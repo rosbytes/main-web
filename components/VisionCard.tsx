@@ -15,11 +15,7 @@ const VisionCard = () => {
           style={{ objectFit: "cover" }}
           className="z-0"
         />
-        <Image
-          src={vision}
-          alt="vision"
-          className="relative z-10 h-auto w-[600px]"
-        />
+        <Image src={vision} alt="vision" className="relative z-10 w-[600px]" />
       </div>
 
       <h1 className="mt-10 mb-10 text-2xl">

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 type SocialCardProps = {
   href: string;
@@ -18,15 +18,14 @@ export const SocialCard: React.FC<SocialCardProps> = ({
   <a
     href={href}
     target="_blank"
-    
-    className="w-[200px] h-[240px] flex flex-col items-center justify-end rounded shadow-lg text-center overflow-hidden transition-transform hover:-translate-y-2 hover:scale-105"
+    className="flex h-[240px] w-[200px] flex-col items-center overflow-hidden rounded text-center shadow-lg transition-transform hover:-translate-y-2 hover:scale-105"
     style={{ background: brandColor }}
   >
-    <div className="flex items-center justify-center w-full flex-1 ">
+    <div className="flex w-full flex-1 items-center justify-center">
       <Image src={iconPath} width={60} height={60} alt={label + " icon"} />
     </div>
     <div
-      className="w-full border-t text-base py-2 font-medium tracking-wide bg-white"
+      className="w-full bg-white py-2 font-medium tracking-wide"
       style={{ color: labelColor }}
     >
       {label} &rarr;

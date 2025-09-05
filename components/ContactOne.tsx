@@ -9,7 +9,7 @@ export const ContactOne: React.FC = () => (
     </h1>
     <div className="flex justify-center gap-20">
       {socials.map((social) => (
-        <SocialCard key={social.label}  {...social} />
+        <SocialCard key={social.label} {...social} />
       ))}
     </div>
 
@@ -20,6 +20,6 @@ export const ContactOne: React.FC = () => (
       </span>
       <hr className="flex-1 border-t border-gray-300" />
     </div>
-    <WhatsAppCard/>
+    <WhatsAppCard />
   </section>
 );
