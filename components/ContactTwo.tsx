@@ -20,7 +20,7 @@ export const ContactTwo = () => {
     <div className="flex items-center justify-center px-4">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="w-full max-w-xl space-y-6 rounded-lg p-8"
+        className="max-w-3xl w-[80%] mx-auto mt-10  space-y-6 rounded-lg p-8"
       >
         <h2 className="mb-8 text-center text-xl font-semibold">
           Got any questions about R.O.S. ? We&#39;re here to help.
