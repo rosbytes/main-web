@@ -14,7 +14,7 @@ const founderData = {
 
 const Page = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center bg-white py-8">
+    <div className="flex h-[90vh] flex-col items-center bg-white py-8">
       <h1 className="mb-8 text-center text-2xl font-extrabold tracking-tight uppercase">
         The R.O.S. Team
       </h1>
