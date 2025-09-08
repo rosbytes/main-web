@@ -1,7 +1,7 @@
 import React from "react";
 import { departmentHeads } from "@components/AboutData";
 import { Shape } from "@components/Hexagon2";
-import VendorPartner from "@components/VendorPartner";
+
 
 const founderData = {
   image: "/path/to/shubham-image.jpg",
