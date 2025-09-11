@@ -4,7 +4,7 @@ import { Shape } from "@components/Hexagon2";
 
 
 const founderData = {
-  image: "/path/to/shubham-image.jpg",
+  image: "/About/maincrop.png",
   name: "Shubham Sharma",
   role: "Founder & CEO",
   quote: "I want to revolutionize the world",
@@ -14,33 +14,33 @@ const founderData = {
 
 const Page = () => {
   return (
-    <div className="flex h-[90vh] flex-col items-center bg-white py-8">
-      <h1 className="mb-8 text-center text-2xl font-extrabold tracking-tight uppercase">
+    <div className="flex h-[90vh] flex-col items-center bg-white py-15">
+      <h1 className="mb-8 text-center custom-roquen text-5xl font-extrabold tracking-tight uppercase">
         The R.O.S. Team
       </h1>
-      <div className="mb-12 flex w-full max-w-3xl flex-col items-center bg-transparent md:flex-row">
-        <div className="mb-4 flex w-full flex-shrink-0 justify-center md:mb-0 md:w-[45%]">
-          <Shape image={founderData.image} size={320} />
+      <div className="mb-12 flex w-full max-w-4xl flex-col items-center bg-transparent md:flex-row">
+        <div className="mb-4 flex w-full mr-5 flex-shrink-0 justify-center md:mb-0 md:w-[45%]">
+          <Shape image={founderData.image} size={400} />
         </div>
         <div className="ml-4 flex w-[55%] flex-col justify-center rounded-2xl bg-[#aa46a4] p-8 text-white">
-          <h2 className="mb-1 text-3xl font-bold">{founderData.name}</h2>
-          <div className="mb-2 text-lg font-medium">{founderData.role}</div>
-          <div className="mb-3 text-base italic">{founderData.quote}</div>
-          <div className="mb-2 text-sm">{founderData.bio1}</div>
-          <div className="text-sm">{founderData.bio2}</div>
+          <h2 className="mb-1 text-6xl custom-apercu font-bold">{founderData.name}</h2>
+          <div className="mb-2 text-xl custom-apercu font-medium">{founderData.role}</div>
+          <div className="mb-3 custom-apercu text-base italic">{founderData.quote}</div>
+          <div className="mb-2 custom-apercu text-sm">{founderData.bio1}</div>
+          <div className="text-sm custom-apercu">{founderData.bio2}</div>
         </div>
       </div>
       <div className="flex max-w-5xl flex-col items-center">
-        <div className="mt-2 mb-4 text-lg font-bold tracking-wide uppercase">
+        <div className="mt-12 mb-4 text-2xl custom-roquen font-bold tracking-wide uppercase">
           Head of Departments
         </div>
-        <div className="mt-12 grid grid-cols-3 gap-x-12 gap-y-8">
+        <div className="mt-12 grid grid-cols-3 gap-x-16 gap-y-10">
           {departmentHeads.map((data, i) => (
             <div key={i} className="flex flex-col items-center justify-center">
-              <Shape image={data.image} />
+              <Shape color={data.color}  />
               <div className="mt-2 text-center">
-                <div className="font-bold">{data.name}</div>
-                <div className="mt-2 text-sm text-green-500">{data.role}</div>
+                <div className="font-bold text-2xl custom-apercu">{data.name}</div>
+                <div className="mt-2 text-sm custom-montagu text-green-500">{data.role}</div>
               </div>
             </div>
           ))}
@@ -48,7 +48,7 @@ const Page = () => {
       </div>
 
       <div className="mt-10 flex w-full flex-col items-center bg-[#3fd088] py-10">
-        <div className="mb-4 text-4xl font-bold tracking-wider text-white uppercase">
+        <div className="mb-6 custom-roquen text-4xl font-bold tracking-wider text-white uppercase">
           Our Vendor Partners
         </div>
         <div className="flex gap-7">
@@ -59,7 +59,7 @@ const Page = () => {
             3
           </div>
         </div>
-        <div className="mt-2 text-lg text-white opacity-80">
+        <div className="mt-2 text-2xl custom-apercu text-white opacity-80">
           {" "}
           &amp; counting...
         </div>

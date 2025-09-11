@@ -2,17 +2,14 @@ import Image from "next/image";
 
 export const WhatsAppCard: React.FC = () => (
   <div className="flex flex-col items-center">
-    <h2 className="mt-4 mb-5 text-center text-xl font-extrabold uppercase">
-      REACH OUT TO US
-    </h2>
     <div className="flex w-full max-w-xl items-center rounded-2xl bg-[#25D366] px-8 py-8">
-      <div className="w-full flex-1">
+      <div className="w-full flex-1  custom-apercu">
         <p className="mb-3 text-left text-3xl font-medium text-white">
           Chat with us directly
           <br />
           via <span className="font-bold">WhatsApp</span>
         </p>
-        <p className="mb-4 text-left text-xl text-white">
+        <p className="mb-4 text-left text-xl  text-white">
           Our Support Team is here for you. Reach out to us in case of any
           doubts/feedbacks.
         </p>
