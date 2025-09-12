@@ -2,7 +2,7 @@ import Header from "@components/Header";
 import localFont from "next/font/local";
 import "./globals.css";
 
- const apercu = localFont({
+const apercu = localFont({
   src: "../public/fonts/apercu_regular_pro.ttf",
   variable: "--font-apercu",
 });

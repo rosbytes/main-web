@@ -26,10 +26,10 @@ export default function Page() {
       />
 
       <div className="relative z-10 flex w-[50%] max-w-6xl flex-col items-center">
-        <h1 className="mb-2 text-center custom-roquen text-5xl font-black text-black uppercase">
+        <h1 className="custom-roquen mb-2 text-center text-5xl font-black text-black uppercase">
           JOIN THE REPUBLIC
         </h1>
-        <h2 className="mb-7 px-6 py-2 text-center text-xl custom-apercu font-semibold text-black">
+        <h2 className="custom-apercu mb-7 px-6 py-2 text-center text-xl font-semibold text-black">
           Join R.O.S. as a <span className="font-bold">Vendor</span> or an{" "}
           <span className="font-bold">Investor</span>.
         </h2>

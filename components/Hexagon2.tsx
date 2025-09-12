@@ -27,7 +27,7 @@ export function Shape({ image, color, size = 300 }: ShapeType) {
               width="510"
               height="430"
               preserveAspectRatio="xMidYMid slice"
-              transform="translate(-30,20) scale(1.1)" 
+              transform="translate(-30,20) scale(1.1)"
             />
           </g>
         ) : (

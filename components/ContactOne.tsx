@@ -20,11 +20,10 @@ export const ContactOne: React.FC = () => (
       </span>
       <hr className="flex-1 border-t border-gray-300" />
     </div>
-    
-      <h2 className="custom-roquen mb-5 text-center text-2xl font-extrabold uppercase">
-        REACH OUT TO US
-      </h2>
-   
+
+    <h2 className="custom-roquen mb-5 text-center text-2xl font-extrabold uppercase">
+      REACH OUT TO US
+    </h2>
 
     <WhatsAppCard />
   </section>
