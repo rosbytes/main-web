@@ -3,7 +3,7 @@ import vectorleft from "../public/vectorleft.svg";
 import vectorright from "../public/vectorright.svg";
 const PhaseThree = () => {
   return (
-    <div className="relative flex min-h-screen w-full items-center justify-center px-4 font-sans">
+    <div className="relative flex h-[70vh] w-full items-center justify-center px-4 font-sans">
       {/* left vector */}
 
       <div className="absolute top-0 left-0 z-10 flex h-full items-center">
@@ -29,10 +29,10 @@ const PhaseThree = () => {
               <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[38px] mb-1 text-[36px] font-bold text-white">
                 TWO
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 Digitalization of the Indian Vegetable Vendor
               </span>
             </div>
@@ -41,10 +41,10 @@ const PhaseThree = () => {
               <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[38px] mb-1 text-[36px] font-bold text-white">
                 THREE
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 Crop Care Mission
               </span>
             </div>
@@ -53,10 +53,10 @@ const PhaseThree = () => {
               <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[38px] mb-1 text-[36px] font-bold text-white">
                 FOUR
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 Healthy India Mission
               </span>
             </div>
@@ -65,10 +65,10 @@ const PhaseThree = () => {
               <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[38px] mb-1 text-[36px] font-bold text-white">
                 FIVE
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 Highest ROI Business
               </span>
             </div>
@@ -77,22 +77,22 @@ const PhaseThree = () => {
               <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[38px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[38px] mb-1 text-[36px] font-bold text-white">
                 SIX
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 World’s Biggest Distribution system
               </span>
             </div>
             {/* PHASE 7 - Highlighted */}
             <div className="relative flex flex-col items-center rounded-lg p-2">
-              <span className=" text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
+              <span className="text-7xl font-extrabold tracking-wide text-white uppercase opacity-20">
                 PHASE
               </span>
-              <span className="-mt-[40px] mb-1 font-[Pacifico,cursive] text-[36px] font-bold text-white">
+              <span className="custom-capcut -mt-[40px] mb-1 text-[36px] font-bold text-white">
                 SEVEN
               </span>
-              <span className="text-center text-lg text-white">
+              <span className="custom-apercu text-center text-lg text-white">
                 The Farmverse
               </span>
             </div>

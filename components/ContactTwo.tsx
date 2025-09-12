@@ -17,16 +17,16 @@ export const ContactTwo = () => {
   const onSubmit: SubmitHandler<ContactFormData> = () => {};
 
   return (
-    <div className="flex items-center justify-center px-4">
+    <div className="custom-apercu flex items-center justify-center px-4">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="max-w-3xl w-[80%] mx-auto mt-10  space-y-6 rounded-lg p-8"
+        className="mx-auto mt-5 w-[80%] max-w-3xl space-y-6 rounded-lg p-8"
       >
-        <h2 className="mb-8 text-center text-xl font-semibold">
+        <h2 className="mb-10 text-center text-xl font-semibold">
           Got any questions about R.O.S. ? We&#39;re here to help.
         </h2>
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-xl font-extrabold text-gray-700">
             Full Name<span className="text-red-500"> *</span>
           </label>
           <input
@@ -41,7 +41,7 @@ export const ContactTwo = () => {
           )}
         </div>
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-xl font-extrabold text-gray-700">
             E-mail Address<span className="text-red-500"> *</span>
           </label>
           <input
@@ -55,7 +55,7 @@ export const ContactTwo = () => {
           )}
         </div>
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-xl font-extrabold text-gray-700">
             Phone Number<span className="ml-1 text-gray-400">(Optional)</span>
           </label>
           <input
@@ -68,7 +68,7 @@ export const ContactTwo = () => {
           )} */}
         </div>
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-xl font-extrabold text-gray-700">
             Your Message<span className="text-red-500"> *</span>
           </label>
           <textarea
@@ -85,7 +85,7 @@ export const ContactTwo = () => {
         <div className="flex justify-end">
           <button
             type="submit"
-            className=" rounded-md bg-green-500 py-2 px-12 text-lg font-semibold text-white transition hover:bg-green-600"
+            className="rounded-md bg-green-500 px-12 py-2 text-lg font-semibold text-white transition hover:bg-green-600"
             style={{ width: "fit-content" }}
           >
             Send Message

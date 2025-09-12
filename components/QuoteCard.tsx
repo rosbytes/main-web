@@ -13,12 +13,12 @@ const QuoteCard = () => {
         />
 
         <div className="relative mx-auto flex max-w-3xl flex-col gap-20">
-          <h2 className="mb-4 text-7xl font-bold tracking-tight text-white">
+          <h2 className="custom-roquen mb-4 text-6xl font-bold tracking-tight text-white">
             THE NEW REPUBLIC
           </h2>
 
           <div className="flex flex-col">
-            <blockquote className="relative text-4xl text-white/90 italic">
+            <blockquote className="custom-montagu relative text-4xl text-white/90 italic">
               <Image src={quoteL} alt="quote left" width={30} height="30" />
               We want to show the world, <br />
               through our actions, how to <br />
@@ -32,7 +32,7 @@ const QuoteCard = () => {
                 height="30"
               />
             </blockquote>
-            <p className="mt-8 text-2xl font-semibold text-white/70">
+            <p className="custom-apercu mt-8 text-2xl font-semibold text-white/70">
               ~ Team R.O.S.
             </p>
           </div>

@@ -3,7 +3,7 @@ import vision from "../public/vision.svg";
 const VisionCard = () => {
   return (
     <div className="mt-8 flex flex-col items-center justify-center">
-      <h1 className="mb-10 text-3xl font-bold">
+      <h1 className="custom-roquen mt-5 mb-10 text-5xl">
         {" "}
         A VISION FOR THE <span className="text-green-500">WORLD</span>
       </h1>
@@ -18,7 +18,7 @@ const VisionCard = () => {
         <Image src={vision} alt="vision" className="relative z-10 w-[600px]" />
       </div>
 
-      <h1 className="mt-10 mb-10 text-2xl">
+      <h1 className="custom-apercu mt-10 mb-10 text-center text-xl">
         The State-of-the-Art R.O.S. system streamlines and redefines the
         traditional chains of <br />
         trade from producers to consumers to bring affordable and best quality

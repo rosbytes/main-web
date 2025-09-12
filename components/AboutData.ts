@@ -2,49 +2,41 @@ export const departmentHeads = [
   {
     name: "Aarya Mishra",
     role: "Executive Manager",
-    image:"/About/head.jpg"
-    
+    color: "#994497",
   },
   {
-    name: "Gaurav Puri<br/>Goswami",
+    name: "Gaurav Puri Goswami",
     role: "Head of Design",
-    image:"/About/head.jpg"
-
+    color: "#44c273",
   },
   {
     name: "Bhawani Singh",
     role: "Head of Technology",
-    image:"/About/head.jpg"
-    
+    color: "#116a5b",
   },
   {
     name: "Siddharth Singh",
     role: "Head of Marketing",
-    image:"/About/head.jpg"
-   
+    color: "#994497",
   },
   {
     name: "Sumit Khandal",
     role: "Head of Operations",
-    image:"/About/head.jpg"
-   
+    color: "#44c273",
   },
   {
     name: "Palak Raj",
     role: "Head of Legal Department",
-    image:"/About/head.jpg"
-    
+    color: "#116a5b",
   },
   {
     name: "Brajesh Bhati",
     role: "Head of Data Management",
-    image:"/About/head.jpg"
-
+    color: "#994497",
   },
   {
     name: "Gunmam",
     role: "Head of Finance",
-    image:"/About/head.jpg"
-   
-  }
+    color: "#44c273",
+  },
 ];

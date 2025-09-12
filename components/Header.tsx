@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="w-full border-b bg-white">
       <nav className="flex items-center justify-center py-4">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-20">
           {navLinks.slice(0, 2).map((nav) => (
             <Link
               key={nav.path}
@@ -46,7 +46,7 @@ const Header = () => {
           <Image
             src={headerRos}
             alt="ROS LOGO"
-            className="h-10 w-10"
+            className="h-15 w-15"
             width={40}
             height={40}
           />
